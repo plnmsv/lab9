@@ -1,0 +1,126 @@
+body { 
+background-color: #FFEBCD; 
+} 
+
+div { 
+display: block; 
+} 
+
+.archive { 
+width: 60%; 
+margin-left: auto; 
+margin-right: auto;
+} 
+
+.article { 
+width: 60%; 
+margin-left: auto; 
+margin-right: auto; 
+} 
+
+.header a { 
+float: right; 
+text-align: right; 
+
+} 
+
+.article-info div { 
+display: inline; 
+} 
+
+.article-created-date { 
+float: right; 
+text-align: right; 
+} 
+
+.service_title.center_pos{
+    font-size: 35px;
+    
+}
+.create_link.center_pos{
+    font-size: 20pt;
+
+}
+
+.reg_link.center_pos{
+    font-size: 20pt;
+    float: right;
+}
+
+
+.login_link.center_pos{
+    font-size: 20pt;
+    
+}
+
+.center_pos { 
+text-align: center; 
+position: relative; 
+}
+
+.article-text { 
+text-align: justify; 
+} 
+
+A { 
+color: #0A2A0A; 
+text-decoration: none; 
+}
+
+.one-post { 
+position:relative;
+
+}
+.post-title {
+	font-size: 20pt;
+}
+.article-text {
+    text-align: justify;
+}
+.one-post.folded .article-author{
+    display: none;
+}
+.one-post.folded .article-created-date{
+    display: none;
+}
+.one-post.folded .article-text{
+    display: none;
+}
+.one-post-shadow {
+ position: absolute;
+ top: 0;
+ left: 0;
+ height: 100%;
+ width: 100%;
+ background: white;
+ z-index: -1; /* это свойство «отодвигает» элемент на задний план */
+}
+.icons-for-parallax {
+ margin-top: 100px;
+ margin-bottom: 100px;
+ height: 530px;
+ position: relative;
+}
+.icons-for-parallax img {
+ /* здесь находятся общие для всех картинок стили */
+ position: absolute;
+ top: 0;
+}
+.icon-for-parallax-first {
+ margin-top: 200px;
+ margin-left: 60px;
+ z-index: 3; /* эта картинка на переднем плане, у неё больший z-index
+*/
+}
+.icon-for-parallax-second {
+ width: 170px; /* уменьшить ширину для картинки, чтобы визуально */
+ /* находилась дальше для пользователя */
+ margin-top: 100px; /* эта картинка слегка смещена вправо и вниз */
+ margin-left: 80px; /* за счет левой и верхней границ */
+ z-index: 2;
+}
+.icon-for-parallax-third{
+ width: 150px;
+ margin-left: 160px;
+ z-index: 1; /* эта картинка на заднем плане, у неё меньший z-index */
+}
